@@ -9,7 +9,6 @@ Docker Django REST framework
 `git add README.md`
 `git commit -m "first commit"`
 `git remote add origin git@github.com:lizhen/admin.git`
-`git clone git@github.com:lizhen/admin.git` 
 `git push -u origin master`
 
 
