@@ -50,4 +50,7 @@ Docker Django REST framework
 `docker-compose build`
 `docker-compose up`
 
+`docker-compose exec backend sh`
+`python manage.py startapp products`
+
 
