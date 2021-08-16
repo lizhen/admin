@@ -32,12 +32,11 @@ Docker Django REST framework
 # Install Django and Django REST framework into the virtual environment
 `pip install django`
 `pip install djangorestframework`
+`pip install django-cors-headers`
+`pip install psycopg2`
 
 # Set up a new project with a single application
 `django-admin startproject admin .` # Note the trailin '.' character
-`cd admin`
-`django-admin startapp admin`
-`cd ..`
 
 # Start the application
 `python manage.py runserver`
@@ -51,6 +50,15 @@ Docker Django REST framework
 `docker-compose up`
 
 `docker-compose exec backend sh`
+
 `python manage.py startapp products`
+`python manage.py makemigrations`
+`python manage.py migrate`
+
+
+# Problems
+1. 解决ModuleNotFoundError: No module named 'pip'
+`python -m ensurepip`
+`python -m pip install --upgrade pip`
 
 

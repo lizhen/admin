@@ -20,3 +20,5 @@ services:
       - POSTGRES_DB=dbname
       - POSTGRES_USER=rootuser
       - POSTGRES_PASSWORD=changeme
+    ports: 
+      - 5432:5432
