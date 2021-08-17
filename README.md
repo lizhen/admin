@@ -56,6 +56,9 @@ Docker Django REST framework
 `python manage.py migrate`
 
 
+`docker-compose exec backend sh`
+`python consumer.py`
+
 # Problems
 1. 解决ModuleNotFoundError: No module named 'pip'
 `python -m ensurepip`
