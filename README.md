@@ -59,6 +59,8 @@ Docker Django REST framework
 `docker-compose exec backend sh`
 `python consumer.py`
 
+`docker-compose up --build`
+
 # Problems
 1. 解决ModuleNotFoundError: No module named 'pip'
 `python -m ensurepip`
